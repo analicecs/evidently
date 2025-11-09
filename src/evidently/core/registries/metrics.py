@@ -107,3 +107,8 @@ register_type_alias(Metric, "evidently.metrics.recsys.Serendipity", "evidently:m
 register_type_alias(Metric, "evidently.metrics.recsys.UserBias", "evidently:metric_v2:UserBias")
 
 register_type_alias(Metric, "evidently.core.metric_types.DataframeMetric", "evidently:metric_v2:DataframeMetric")
+
+register_type_alias(Metric, "evidently.metrics.classification_bias_calculation.ClassImbalanceMetric", "evidently:metric_v2:ClassImbalanceMetric")
+register_type_alias(Metric, "evidently.metrics.classification_bias_calculation.ConditionalDemographicDisparityMetric", "evidently:metric_v2:ConditionalDemographicDisparityMetric")
+register_type_alias(Metric, "evidently.metrics.classification_bias_calculation.KLDivergenceMetric", "evidently:metric_v2:KLDivergenceMetric")
+register_type_alias(Metric, "evidently.metrics.classification_bias_calculation.MyMaxMetric", "evidently:metric_v2:MyMaxMetric")
